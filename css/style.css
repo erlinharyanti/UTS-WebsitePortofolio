@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* variabel */
+:root{
+    --main-color : #fef9e1;
+    --dark-color: #0f0f0f;
+    --secondary-color : #f6ecbe;
+    --acsent-color : #ff9d23;
+
+    --h1-fontsize: 40px;
+    --h2-fontsize: 26px;
+    --small-fontsize: 14px;
+}
+
+/* reset css */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* global css */
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--main-color);
+    padding-top: 70px;
+}
+
+section{
+    padding: 70px 15px;
+}
+
+section .section-tittle{
+    font-size: var(--h2-fontsize);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-orange{
+    background-color: var(--acsent-color);
+    color: white;
+}
+
+.btn-orange:hover{
+    background-color: var(--dark-color); 
+    color: var(--main-color); 
+}
+
+.btn-orange i {
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-left: 5px; 
+    transition: all 0.3s ease; 
+}
+
+.text-orange{
+    color: var(--acsent-color);
+}
+
+.text-dark{
+    color: var(--dark-color);
+}
+
+.fs-7{
+    font-size: var(--small-fontsize);
+}
+
+/* css persection */
+.navbar {
+    background-color: var(--main-color);
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index: 1000; 
+    transition: background-color 0.3s ease;
+}
+
+.nav-link {
+    color: #525252;
+}
+  
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:focus {
+    color: var(--acsent-color);
+}
+  
+.navbar .nav-item .nav-link.active {
+    color: var(--acsent-color);
+}
+
+.navbar.scrolled {
+    background-color: var(--secondary-color);
+}
+
+/* header section */
+.header-section .header-content p {
+    margin-bottom: 10px; 
+}
+
+.header-section .header-content h1 {
+    font-size: 35px; 
+    margin-bottom: 20px; 
+    line-height: 1;
+}
+
+.header-section .header-content p.fs-7 {
+    max-width: 500px; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
+
+.header-section .btn-orange:hover i {
+    transform: translateX(6px); 
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 50px !important; 
+}
+
+.social-icons a {
+    font-size: 30px; 
+    color: var(--acsent-color); 
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: black; 
+    transform: scale(1.2); 
+}
+
+.header-section .header-img {
+    width: 75%; 
+}
+
+/* portfolio section */
+
+.portfolio-section {
+    background-color: var(--secondary-color); 
+}
+
+.portfolio-section .card {
+    border: 1px solid var(--acsent-color);
+    border-radius: 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.portfolio-section .card:hover {
+    box-shadow: 0 4px 20px rgba(255, 165, 0, 0.8); 
+    transform: translateY(-5px);
+}
+
+.portfolio-section .card-img-top {
+    border-radius: 0;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.portfolio-section .card-body {
+    padding: 15px;
+}
+
+.portfolio-section .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--dark-color);
+}
+
+.portfolio-section .card-text {
+    color: #555;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.portfolio-section .card-link {
+    color: var(--acsent-color);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.portfolio-section .card-link:hover {
+    text-decoration: underline;
+}
+
+/* achievements-section */
+
+.achievements-section .achievement-img {
+    border: 1px solid var(--dark-color); 
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievements-section .achievement-img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* contact */
+.contact-section .btn-orange:hover i {
+    transform: translateX(-6px); 
+}
+
+.contact-section input,
+.contact-section textarea {
+    font-size: 14px; 
+}
+
+footer{
+    background-color: var(--dark-color);
+}
+
+
+
+
+
+
+
+

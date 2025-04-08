@@ -1,0 +1,114 @@
+@media screen and (max-width : 1200px){
+    .header-section .header-img {
+        width: 85%; 
+    }
+    h2{
+        font-size: 24px !important;
+    }
+    .portfolio-section p.fs-5 {
+        font-size: 18px !important; 
+    }
+    .achievements-section p.fs-5 {
+        font-size: 18px !important; 
+    }
+    .contact-section p.fs-5 {
+        font-size: 18px !important; 
+    }
+}
+
+@media screen and (max-width : 768px){
+    .header-section .row {
+        flex-direction: column-reverse; 
+        text-align: center;
+    }
+    .header-section .header-content {
+        align-items: center;
+    }
+    .header-section .header-img {
+        width: 70%; 
+        margin-bottom: 30px;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+    .portfolio-section p.fs-5 {
+        font-size: 16px !important; 
+    }
+    .achievements-section p.fs-5 {
+        font-size: 16px !important; 
+    }
+    .contact-section p.fs-5 {
+        font-size: 16px !important; 
+    }
+    body {
+        padding-top: 60px; 
+    }
+    section {
+        padding: 60px 10px; 
+    }
+}
+
+@media screen and (max-width : 576px){
+    .header-section h1 {
+        font-size: 28px;
+    }
+    
+    .header-section p {
+        font-size: 14px;
+    }
+    
+    .header-section .btn-orange {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    footer p {
+        font-size: 12px !important;
+        text-align: center; 
+    }
+}
+
+@media screen and (max-width : 350px){
+    .header-section h1 {
+        font-size: 16px;
+    }
+    
+    .header-section p {
+        font-size: 12px;
+    }
+    
+    .header-section .btn-orange {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+    .social-icons a {
+        font-size: 25px; 
+    }
+    .contact-section p.text-secondary, 
+    .contact-section .d-flex div, 
+    .contact-section form input, 
+    .contact-section form textarea, 
+    .contact-section form button, 
+    .contact-section .text-center a.btn,
+    footer p {
+        font-size: 12px;
+    }
+
+    .contact-section form button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .contact-section .text-center a.btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 12px !important;
+        text-align: center; 
+    }
+}
+
